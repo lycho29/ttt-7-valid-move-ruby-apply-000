@@ -4,7 +4,7 @@ RSpec.configure do |config|
   config.order = :default
 end
 
-
+board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
 
 display_board(board)
 valid_move?(board, index)
